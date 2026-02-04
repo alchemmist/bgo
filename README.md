@@ -6,7 +6,7 @@ A focused command-line weather client that delivers current conditions and forec
 
 ## Demo
 
-<video src="media/example_usage.mp4" controls muted playsinline width="800"></video>
+<video src="media/example2.mp4" controls muted playsinline width="800"></video>
 
 ## Features
 - Current weather and multi-day forecast
