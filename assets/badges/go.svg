@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="122" height="20" role="img" aria-label="go:1.22+">
+  <title>go:1.22+</title>
+  <linearGradient id="s" x2="0" y2="100%">
+    <stop offset="0" stop-color="#fff" stop-opacity="0.7"/>
+    <stop offset="1" stop-opacity="0.7"/>
+  </linearGradient>
+  <clipPath id="r">
+    <rect width="122" height="20" rx="3" fill="#fff"/>
+  </clipPath>
+  <g clip-path="url(#r)">
+    <rect width="52" height="20" fill="#2f3b52"/>
+    <rect x="52" width="70" height="20" fill="#00add8"/>
+    <rect width="122" height="20" fill="url(#s)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="11">
+    <text x="26" y="14">go</text>
+    <text x="86" y="14">1.22+</text>
+  </g>
+</svg>

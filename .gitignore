@@ -1,11 +1,22 @@
+# Go
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace cache
+# (left intentionally minimal; cache location can vary)
+
+# Env
 .env
-.idea
-.vscode
-venv
-env
-__pycache__
-memory.txt
-.mypy_cache
-dist/
-.ruff_cache
-src
+
+# OS
+.DS_Store
+
+# Media artifacts (optional)
+# Uncomment if you don't want to track sample media
+# /media/
