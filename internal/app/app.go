@@ -51,8 +51,7 @@ func (r *Runner) Run(args []string) int {
 	withTime := fs.Bool("with-time", false, "use this field for show forecast with time")
 
 	fs.Usage = func() {
-		fmt.Fprintf(r.ErrOut, "Usage: %s [now|forecast] [flags]\n", os.Args[0])
-		fs.PrintDefaults()
+		view.PrintHelp(r.ErrOut)
 	}
 
 	command := "now"
@@ -63,6 +62,9 @@ func (r *Runner) Run(args []string) int {
 	}
 
 	if err := fs.Parse(flagArgs); err != nil {
+		if err == flag.ErrHelp {
+			return 0
+		}
 		return 2
 	}
 
