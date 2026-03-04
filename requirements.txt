@@ -1,6 +1,6 @@
 charset-normalizer==3.4.4
 certifi==2024.12.14
-idna==3.6
+idna==3.11
 markdown-it-py==4.0.0
 mdurl==0.1.2
 pycairo==1.25.1
