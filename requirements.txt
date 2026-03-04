@@ -5,7 +5,7 @@ markdown-it-py==3.0.0
 mdurl==0.1.2
 pycairo==1.25.1
 Pygments==2.17.2
-PyGObject==3.46.0
+PyGObject==3.56.0
 python-dotenv==1.0.1
 requests==2.31.0
 rich==13.7.0
