@@ -9,4 +9,4 @@ PyGObject==3.46.0
 python-dotenv==1.0.1
 requests==2.31.0
 rich==14.3.3
-urllib3==2.2.1
+urllib3==2.6.3
