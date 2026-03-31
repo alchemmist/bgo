@@ -7,6 +7,6 @@ pycairo==1.29.0
 Pygments==2.20.0
 PyGObject==3.56.2
 python-dotenv==1.2.2
-requests==2.33.0
+requests==2.33.1
 rich==14.3.3
 urllib3==2.6.3
