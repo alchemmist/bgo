@@ -6,7 +6,7 @@ mdurl==0.1.2
 pycairo==1.29.0
 Pygments==2.21.0
 PyGObject==3.56.3
-python-dotenv==1.2.2
+python-dotenv==1.2.3
 requests==2.34.2
 rich==15.0.0
 urllib3==2.7.0
